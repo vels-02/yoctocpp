@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(cppsample main.cpp)
 
 # install
-install(TARGETS this_is DESTINATION bin)
+install(TARGETS cppsample DESTINATION bin)
