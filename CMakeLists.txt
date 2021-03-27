@@ -8,3 +8,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 # add the executable
 add_executable(cppsample main.cpp)
+
+# install
+install(TARGETS this_is DESTINATION bin)
